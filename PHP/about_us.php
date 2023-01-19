@@ -12,7 +12,7 @@ outputNav();
     <div class="abtus">
         <!-- adding an image to make it look more appealing -->
         <div class="photo">
-            <img src="media/abtlogo.avif">
+            <img src="../media/abtlogo.avif">
             <div class="about-text">
                 <!-- heading and details on the game -->
                 <h1><strong>About Us</strong></h1>

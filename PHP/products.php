@@ -15,10 +15,10 @@ outputNav();
                 TELEVISION
             </div>
             <div class="row1">
-                <img src="media/xiaomi_q2_65.png" alt="" style="width:250px;height:250px">
+                <img src="../media/xiaomi_q2_65.png" alt="" style="width:250px;height:250px">
             </div>
             <div class="row2">
-                <img src="media/xiaomi_p1e_65.png" alt="" style="width:250px;height:250px">
+                <img src="../media/xiaomi_p1e_65.png" alt="" style="width:250px;height:250px">
             </div>
         </div>
         <div class="phones">
@@ -26,12 +26,12 @@ outputNav();
                 PHONES
             </div>
             <div class="row1">
-                <img src="media/xiaomi_11t_pro.png" alt="" style="width:250px;height:250px">
-                <img src="media/xiaomi_12_lite.png" alt="" style="width:250px;height:250px">
+                <img src="../media/xiaomi_11t_pro.png" alt="" style="width:250px;height:250px">
+                <img src="../media/xiaomi_12_lite.png" alt="" style="width:250px;height:250px">
             </div>
             <div class="row2">
-                <img src="media/xiaomi_12s_ultra.png" alt="" style="width:250px;height:250px">
-                <img src="media/xiaomi_12t.png" alt="" style="width:250px;height:250px">
+                <img src="../media/xiaomi_12s_ultra.png" alt="" style="width:250px;height:250px">
+                <img src="../media/xiaomi_12t.png" alt="" style="width:250px;height:250px">
             </div>
         </div>
         <div class="speakers">
@@ -39,13 +39,13 @@ outputNav();
                 SPEAKERS
             </div>
             <div class="row1">
-                <img src="media/JBL_PartyBox_310.webp" alt="" style="width:250px;height:250px" onclick="openCart()">
-                <img src="media/JBL_PartyBox_110.webp" alt="" style="width:250px;height:250px">
+                <img src="../media/JBL_PartyBox_310.webp" alt="" style="width:250px;height:250px" onclick="openCart()">
+                <img src="../media/JBL_PartyBox_110.webp" alt="" style="width:250px;height:250px">
             </div>
             <div class="row2">
-                <img src="media/JBL_PULSE_5.webp" alt="" style="width:250px;height:250px">
+                <img src="../media/JBL_PULSE_5.webp" alt="" style="width:250px;height:250px">
                 <a>
-                    <img src="media/JBL_PartyBox_710.webp" alt="" style="width:250px;height:250px" onclick="openCart()">
+                    <img src="../media/JBL_PartyBox_710.webp" alt="" style="width:250px;height:250px" onclick="openCart()">
                 </a>
             </div>
         </div>
@@ -77,7 +77,7 @@ outputNav();
             <button id="pay">PAY</button>
         </div>
     </div>
-    <script src="products.js"></script>
+    <script src="../JavaScript/products.js"></script>
 
 <?php
 OutputFooter();
