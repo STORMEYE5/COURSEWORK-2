@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+ <header>
+		<link rel="stylesheet" type="text/css" href="add.css">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">View/Delete orders</a></li>
+                <li><a href="#">Delete product</a></li>
+                <li><a href="#">Add product</a></li>
+                <li><a href="#">View all products</a></li>
+                <div class="login">
+                    <a>Flipkart</a>
+                </div>
+            </ul>
+        </nav>
+    </header>
+	
+	<body style="background-image: url('background.jpg');" width: 100%; height: 100%;>
+		<h1 > Add Product: </h1>
+		<div class="container">
+			<label for="section">Section :</label>
+
+			<select name="section" id="section">
+			  <option value="Television">Television</option>
+			  <option value="Phone">Phone</option>
+			  <option value="Speaker">Speaker</option>
+			</select>
+		</div>
+		
+	    <!-- Input box asking for model -->
+            <form id ="model">
+                <label>Model: </label>
+                <input type="text" id="model">
+                <br><br>
+            </form>
+			
+			    <form id ="PId">
+                <label>Product ID: </label>
+                <input type="text" id="model">
+                <br><br>
+            </form>
+			
+			    <form id ="price">
+                <label>Price: </label>
+                <input type="text" id="model">
+                <br><br>
+            </form>
+			
+			<div class="AddButton">
+				<button type="submit">Add product</button>
+			</div>
+
+	</body>
+
+</html>

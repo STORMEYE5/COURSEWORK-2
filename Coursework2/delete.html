@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+ <header>
+		<link rel="stylesheet" type="text/css" href="delete.css">
+		<title>KartFlip/DeleteProducts</title>
+        <nav class="navbar">
+            <ul>
+                <li><a href='order.html'>Order Details</a></li>
+                <li><a href='delete.html'>Delete product</a></li>
+                <li><a href='add.html'>Add product</a></li>
+                <li><a href='inventory.html'>View all products</a></li>
+                <div class="login">
+                    <a>KartFlip</a>
+                </div>
+            </ul>
+        </nav>
+    </header>
+	
+	<body style="background-image: url('background.jpg');" width: 100%; height: 100%;>
+		<h1 > Delete Product: </h1>
+		<div class="container">
+			<label for="section">Section :</label>
+
+			<select name="section" id="section">
+			  <option value="Television">Television</option>
+			  <option value="Phone">Phone</option>
+			  <option value="Speaker">Speaker</option>
+			</select>
+		</div>
+		
+	    <!-- Input box asking for model -->
+            <form id ="model">
+                <label>Model: </label>
+                <input type="text" id="model">
+                <br><br>
+            </form>
+			
+			    <form id ="PId">
+                <label>Product ID: </label>
+                <input type="text" id="model">
+                <br><br>
+            </form>
+			
+			    <form id ="price">
+                <label>Price: </label>
+                <input type="text" id="model">
+                <br><br>
+            </form>
+			
+			<div class="DeleteButton">
+				<button type="submit">Delete product</button>
+			</div>
+			
+			
+		<div class="footer">
+			<h4>~Page is accessible to staff only~</h4>
+			<a class="copyright"> Copyright © 2023 KartFlip. All Rights Reserved.</a>
+		</div>
+
+	</body>
+
+</html>

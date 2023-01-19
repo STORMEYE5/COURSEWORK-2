@@ -1,0 +1,87 @@
+h1{
+
+    font-family: garamond ;
+    text-align:center;
+    font-size:30pt;
+    color:black;
+}
+
+
+.navbar{
+            background-color: black;
+            border-radius: 30px;
+}
+
+.navbar li{
+            float:right;
+            list-style: none; 
+            margin: 13px 20px;
+        }
+.navbar ul{
+            overflow: auto;
+        }
+.navbar li a{
+            padding: 25px 25px;
+            text-decoration: none;
+            color: white;
+        }
+ .login{
+            float: left;
+            color: white;
+	 font-family: garamond ;
+	 font-size:35pt;
+            padding: 12px 75px;
+        }
+
+.navbar input{
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129px;
+        }
+.navbar li a:hover{
+            color: blue
+        }
+
+.container{
+text-align:center;
+font-size:30px;
+margin:10px;
+}
+
+#model{
+text-align:center;
+font-size:15px;
+margin:10px;
+
+}
+
+#PId{
+text-align:center;
+font-size:16px;
+margin:10px;
+
+}
+
+#price{
+text-align:center;
+font-size:15px;
+margin:10px;
+
+}
+.DeleteButton{
+text-align: center;
+font-size:40px;
+font-family: garamond
+
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}

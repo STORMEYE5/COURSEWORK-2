@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+ <header>
+		<link rel="stylesheet" type="text/css" href="inventory.css">
+		<title>KartFlip/Products</title>
+        <nav class="navbar">
+            <ul>
+                <li><a href='order.html'>Order Details</a></li>
+                <li><a href='delete.html'>Delete product</a></li>
+                <li><a href='add.html'>Add product</a></li>
+                <li><a href='inventory.html'>View all products</a></li>
+                <div class="login">
+                    <a>KartFlip</a>
+                </div>
+            </ul>
+        </nav>
+    </header>
+	<body style="background-image: url('background.jpg');" width: 100%; height: 100%;>
+	<h1>Product Details </h1>
+	
+	<table height= "50%" width = "100%" border = "5" cellspacing="10" align = "right" color=D56653 >
+			<tr>
+				<td colspan="5" bgcolor = "black" align = "center"> Products </td>
+			</tr>
+			<tr>
+				<td>--Section-- </td>
+				<td>--Model-- </td>
+				<td>--Stock-- </td>
+				<td>--Price(Rs)-- </td>
+			</tr>
+			<tr>
+				<td> Phone </td>
+				<td>Iphone 12 </td>
+				<td>7</td>
+				<td>89 000</td>
+				
+			</tr>	
+			<tr>
+				<td>  </td>
+				<td> Samsung R8 </td>
+				<td> 12 </td>
+				<td>40 000</td>
+			</tr>
+			<tr>
+				<td> </td>
+				<td> Huawei Y9</td>
+				<td> 9 </td>
+				<td>9 000</td>
+			</tr
+			<tr>
+				<td> Television </td>
+				<td> Samsung LED </td>
+				<td> 7 </td>
+				<td>45 000</td>
+			</tr>
+			<tr>
+				<td>  </td>
+				<td> LG  </td>
+				<td> 11 </td>
+				<td>38 999</td>
+			</tr>
+			<tr>
+				<td> Speaker </td>
+				<td> JBL Partybox</td> 
+				<td> 4 </td>
+				<td>51 870</td>
+			</tr>
+			<tr>
+				<td> </td>
+				<td> Logitech Z101</td> 
+				<td> 4 </td>
+				<td> 6 000</td>
+			</tr>
+			
+		</table>
+
+		<div class="footer">
+			<h4>~Page used only by staff~</h4>
+			<a class="copyright"> Copyright © 2023 KartFlip. All Rights Reserved.</a>
+		</div>
+	</body>
+</html>
