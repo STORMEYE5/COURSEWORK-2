@@ -1,0 +1,269 @@
+body {
+  margin: 0;
+  background-image: url("4884841.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.store-name{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 20px;
+  margin: 20px;
+  font-size: 40px;
+  font-weight: 100;
+  color: #ffffff;
+}
+
+.products-box{
+  display: flex;
+  position: relative;
+  top: 30px;
+  height: 700px;
+  margin: 20px;
+  justify-content: space-around;
+}
+
+.television, .phones, .speakers{
+  display: flex;
+  position: relative;
+  width: 100%;
+  margin: 5px;
+  flex-direction: column;
+}
+
+.television .title {
+  height: 6%;
+}
+
+.title{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2px;
+  justify-content: center;
+  align-content: center;
+  height: 6%;
+  width: 100%;
+  color: white;
+}
+
+.row1{
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.television .row1{
+  display: flex;
+  margin: 4px;
+  height: 50%;
+}
+
+.row2{
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  justify-content: space-around;
+}
+
+.television .row2{
+  display: flex;
+  margin: 4px;
+  height: 50%;
+}
+
+.cart-form{
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  position: absolute;
+  height: 600px;
+  width: 1000px;
+  justify-content: center;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 1s linear;
+}
+
+.cart-details{
+  height: 100%;
+  background-color: #11325f;
+}
+
+.close-window{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border-radius: 50px;
+  padding: 3px;
+  margin: 0;
+  border: 0;
+  outline: none;
+  background-color: red;
+}
+
+.add-button{
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 0;
+  border: 0;
+  outline: none;
+  background-color: #46c1f6;
+}
+
+.personal_cart{
+  display: flex;
+  overflow-x: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100vh;
+  background-color: white;
+  transition: all 1s;
+  z-index: 1;
+}
+
+.product{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0;
+  padding: 4px;
+  height: 100px;
+}
+
+#image{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+#description{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 5px;
+  justify-content: center;
+  align-content: center;
+}
+
+.checkout{
+  display: flex;
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  justify-content: center;
+}
+
+#shop{
+  display: flex;
+  justify-content: center;
+  width: 130px;
+  border-radius: 50px;
+  padding: 10px 40px;
+  cursor: pointer;
+  margin-right: 18px;
+  border: 0;
+  outline: none;
+  background-color: #46c1f6;
+}
+
+#pay{
+  display: flex;
+  justify-content: center;
+  width: 130px;
+  border-radius: 50px;
+  padding: 10px 40px;
+  cursor: pointer;
+  margin: 0;
+  border: 0;
+  outline: none;
+  background-color: #46c1f6;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #11325f;
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px 8px;
+    margin: 0 10px 0 0;
+    text-decoration: none;
+    background-color: #ffffff87;
+    border-radius: 20px;
+}
+
+.box-end{
+    margin-right: auto;
+}
+
+.icons .icon{
+    margin-right: auto;
+    background-color: #ffffff87;
+    border-radius: 50%;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 17px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    color: #333;
+    text-decoration: none;
+  }
+  .icons .facebook:hover{
+    background-color: #3b5999;
+    color: #ffffff;
+  }
+  .icons .twitter:hover{
+    background-color: #46c1f6;
+    color: #ffffff;
+  }
+  .icons .instagram:hover{
+    background-color: #e1306c;
+    color: #ffffff;
+  }
