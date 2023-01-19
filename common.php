@@ -13,7 +13,7 @@ function outputHeader($title)
     <title>'.$title.'</title>
     <link rel="stylesheet" href="style.css">
     
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/277bace957.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -25,7 +25,7 @@ function outputHeader($title)
                         <h2 class="logo"><span>Kart</span>Flip</h2>
                     </div>
                     <div class="fas fa-search" id = "searchbutton"></div>
-                    <div class="fas fa-shopping-cart" id = "cartbutton"></div>
+                    <div class="fas fa-shopping-cart" id = "cartbutton" onclick="display_personal_cart()"></div>
 
                 
             </div>    
@@ -68,11 +68,17 @@ function outputFooter()
         <div class="footer-content">
             <h3><span>Kart</span>Flip</h3>
             <p>Use Secure Sites: It is proper netiquette to use secure websites whenever possible.</p>
-            <ul class="socials">
-                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-            </ul>
+            <div class="icons">
+                <a href="#" class="icon facebook">
+                  <span><i class="fab fa-facebook-f"></i></span>
+                </a>
+                <a href="#" class="icon twitter">
+                  <span><i class="fab fa-twitter"></i></span>
+                </a>
+                <a href="#" class="icon instagram">
+                  <span><i class="fab fa-instagram"></i></span>
+                </a>
+            </div>
         </div>
         <div class="abt">
             <a href="about_us.php" class="aboutpage">About Us</a>
