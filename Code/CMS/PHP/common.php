@@ -13,7 +13,7 @@ END;
 // Function to output the styles list
 function output_styles($styles){
     echo <<< END
-    link rel="stylesheet" type="text/css" href="../CSS/$styles";
+    <link rel="stylesheet" type="text/css" href="../CSS/$styles">
 END;
 }
 
