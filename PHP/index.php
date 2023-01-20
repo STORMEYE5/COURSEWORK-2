@@ -3,7 +3,7 @@
 include ('common.php');
 $title = "KartFlip";
 //Ouputs the header for the page and opening body tag
-    
+
 //Output header and navigation 
 outputHeader($title);
 outputNav();
@@ -12,6 +12,26 @@ outputNav();
     <div class="home"> 
         <div class="para">
             <h3>Welcome to KartFlip. Your Favourite Shopping Website.</h3>
+        </div>
+    </div>
+
+    <div class="slider">
+        <div class="images">
+            <input type="radio" name="slide" id="img1" checked>
+            <input type="radio" name="slide" id="img2">
+            <input type="radio" name="slide" id="img3">
+            <input type="radio" name="slide" id="img4">
+
+            <img src="../media/80per.jpg" class="m1" alt="img1" style="width: 700px;height:400px;">
+            <img src="../media/laptop.webp" class="m2" alt="img2" style="width:700px;height:400px;">
+            <img src="../media/phone.jpg" class="m3" alt="img3" style="width:700px;height:400px;">
+            <img src="../media/speaker.jpg" class="m4" alt="img4" style="width:700px;height:400px;">
+        </div>
+        <div class="dots">
+            <label for="img1"></label>
+            <label for="img2"></label>
+            <label for="img3"></label>
+            <label for="img4"></label>
         </div>
     </div>
 

@@ -65,16 +65,30 @@ outputNav();
     <div class="personal_cart">
         <div class="product">
             <div id="image">
-                <img src="JBL_PARTYBOX_710.webp" alt="" style="width:100px;height:100px;">
+                <img src="../media/JBL_PARTYBOX_710.webp" alt="" style="width:100px;height:100px;">
             </div>
             <div id="description">
                 JBL PARTYBOX 710
                 QUANTITY: ?
             </div>
+            <div class="remove_product">
+                <button id="remove_product">
+                    X
+                </button>
+            </div>
         </div>
         <div class="checkout">
-            <button id="shop" onclick="display_personal_cart()">SHOP</button>
-            <button id="pay">PAY</button>
+            <div class="payment">
+                <button id="shop" onclick="display_personal_cart()">SHOP</button>
+                <button id="pay">PAY</button>
+            </div>
+            <div class="button_link">
+                <a href="hist.php" id="order_text">
+                    <button id="order_history">
+                        ORDER HISTORY
+                    </button>
+                </a>
+            </div>
         </div>
     </div>
     <script src="../JavaScript/products.js"></script>
