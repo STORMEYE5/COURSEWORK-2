@@ -1,3 +1,4 @@
+/* Styling header */
 h1{
     font-family: garamond ;
     text-align:center;
@@ -5,6 +6,7 @@ h1{
     color:black;
 }
 
+/* Styling navigation bar */
 .navbar{
     background-color: black;
     border-radius: 30px;
@@ -27,7 +29,12 @@ h1{
     text-decoration: none;
     color: white;
 }
- .login{
+
+.navbar li a:hover{
+    color: blue
+}
+
+.login{
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -39,30 +46,12 @@ h1{
     padding: 12px 75px;
 }
 
-.navbar li a:hover{
-    color: blue
-}
-
+/* Styling input form */
 input{
     border: 2px solid black;
     border-radius: 14px;
     padding: 3px 17px;
     width: 129px;
-}
-
-.container{
-text-align:center;
-font-size:30px;
-margin:10px;
-}
-
-#section{
-    border: 0;
-    margin: 0;
-    border-radius: 50px;
-    padding: 2px;
-    outline: 0;
-    transform: translate(0px, -3px);
 }
 
 .form_container{
@@ -89,15 +78,15 @@ input{
 }
 
 #PId{
-text-align:center;
-font-size:16px;
-margin:10px;
+    text-align:center;
+    font-size:16px;
+    margin:10px;
 }
 
 .DeleteButton{
-text-align: center;
-font-size:40px;
-font-family: garamond
+    text-align: center;
+    font-size:40px;
+    font-family: garamond
 }
 
 button{
@@ -110,6 +99,7 @@ button{
     background-color: #ffa726;
 }
 
+/* Styling footer */
 .footer {
    position: fixed;
    left: 0;

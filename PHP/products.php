@@ -1,14 +1,14 @@
 <?php
-// include common.php as it contains the header and footer... website has a constant header and footer throughout
-
-include('common.php');
-$title = "Products";
-//Ouputs the header for the page and opening body tag
-
-outputHeader($title);
-outputNav();
+    // include common.php as it contains the header and footer... website has a constant header and footer throughout
+    include('common.php');
+    
+    //Ouputs the header for the page and opening body tag
+    outputHeader("Products");
+    outputNav();
 ?>
 
+    <!-- Content of page -->
+    <!-- Displaying products -->
     <div class="products-box">
         <div class="television">
             <div class="title">
@@ -51,6 +51,7 @@ outputNav();
         </div>
     </div>
 
+    <!-- Hidden cart displaying more information about a product -->
     <div class="cart-form">
         <div class="cart-details">
             <div>
@@ -62,6 +63,7 @@ outputNav();
         </div>
     </div>
 
+    <!-- Personal cart to display selected items -->
     <div class="personal_cart">
         <div class="product">
             <div id="image">
@@ -94,5 +96,6 @@ outputNav();
     <script src="../JavaScript/products.js"></script>
 
 <?php
-OutputFooter();
+    // Output footer
+    OutputFooter();
 ?>

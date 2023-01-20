@@ -1,22 +1,19 @@
 <?php
-// include common.php as it contains the header and footer... website has a constant header and footer throughout
-
-include ('common.php');
-$title = "Sign Up Page";
-//Ouputs the header for the page and opening body tag
-
-outputHeader($title);
-outputNav();
+    // include common.php as it contains the header and footer... website has a constant header and footer throughout
+    include ('common.php');
+    
+    //Ouputs the header for the page and opening body tag
+    outputHeader("Sign Up Page");
+    outputNav();
 ?>
-<!-- content of signup page -->
+
+    <!-- content of signup page -->
     <div class="content">
         <div class="sign-form">
             <h1>Sign Up Page</h1>
             <div class="form_details">
                 <div class="form_input">
                     <p>Username</p>
-                                <!-- entering spaces to allow user to input his sign-up details -->
-
                     <input type="username" id="username" placeholder="Enter Username" >
                 </div>
             </div>
@@ -68,12 +65,11 @@ outputNav();
                 </div>
             
         </div>
-    </div>
-    <!-- <script type="text/javascript" src="signup.js"></script> -->
-   
+    </div>   
 
 <?php
-OutputFooter();
+    // Output footer
+    OutputFooter();
 ?>
 
 

@@ -1,28 +1,31 @@
 <?php
-// include common.php as it contains the header and footer... website has a constant header and footer throughout
-
-include ('common.php');
-$title = "Customer History";
-//Ouputs the header for the page and opening body tag
-
-outputHeader($title);
-outputNav();
+    // include common.php as it contains the header and footer... website has a constant header and footer throughout
+    include ('common.php');
+    
+    //Ouputs the header for the page and opening body tag
+    outputHeader("Customer History");
+    outputNav();
 ?>
-  <div class="leaderboard">
+
+    <!-- Content of page -->
+    <div class="history_table">
         <h1>Customer Order History</h1>
+
         <!-- creation of table to display details of player and high scores -->
         <table>
+
+            <!-- table headers -->
             <thead>
                 <tr>
-                    <!-- table headers -->
                     <th>Customer ID</th>
                     <th>Date Purchased</th>
                     <th>Price</th>
                 </tr>
             </thead>
+
+            <!-- entering dummy values to show how the table will look -->
             <tbody>
                 <tr>
-                    <!-- entering dummy values to show how the table will look once game will be implemented -->
                     <td>JS120909</td>
                     <td>12/09/23</td>
                     <td>Rs 25000</td>
@@ -46,12 +49,12 @@ outputNav();
                     <td>TY017058</td>
                     <td>08/02/22</td>
                     <td>Rs 69000</td>
-
+                </tr>
             </tbody>
         </table>
     </div>
 
-
 <?php
-OutputFooter();
+    // Output footer
+    OutputFooter();
 ?>

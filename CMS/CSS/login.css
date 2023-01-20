@@ -1,5 +1,5 @@
-h1
-{
+/* Styling header */
+h1{
     background-color: black;
     border-radius: 30px;
     font-family: garamond ;
@@ -8,15 +8,14 @@ h1
     color:white;
 }
 
-
-#wel 
-{
+#wel{
     font-family: garamond ;
     text-align:center;
     font-size:40pt;
     color:black;
 }
 
+/* Styling input form */
 .form_container{
     position: relative;
     left: 50%;
@@ -65,9 +64,9 @@ input{
 }
 
 .LButton{
-text-align: center;
-font-size:40px;
-font-family: garamond
+    text-align: center;
+    font-size:40px;
+    font-family: garamond
 }
 
 button{
@@ -78,8 +77,9 @@ button{
     border-radius: 50px;
     outline: 0;
     background-color: #ffa726;
-    }
+}
 
+/* Styling footer */
 .footer {
    position: fixed;
    left: 0;

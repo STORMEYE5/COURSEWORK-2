@@ -1,30 +1,21 @@
 <?php
-	
-include("common.php");
+	//Include the PHP functions to be used on the page	
+	include("common.php");
 
-output_header("Delete product");
-output_styles("delete.css");
-output_header2();
-outputNav();
-output_header3();
-
+	// Output header
+	output_header("Delete product");
+	// Output style sheet
+	output_styles("delete.css");
+	output_header2();
+	// Output navigation bar
+	outputNav();
+	output_header3();
 ?>
-	
-	<h1 > Delete Product: </h1>
-		<div class="container">
-			<label for="section">Section :</label>
-
-			<select name="section" id="section">
-			  <option value="Television">Television</option>
-			  <option value="Phone">Phone</option>
-			  <option value="Speaker">Speaker</option>
-			</select>
-		</div>
-		
+	<!-- Contents of page -->
+	<h1 > Delete Product: </h1>		
 	    <!-- Input box asking for model -->
 		<div class="form_container">			
-			    <form id ="PId">
-                <!-- <label>Product ID: </label> -->
+			<form id ="PId">
                 <input type="text" id="model" placeholder="PRODUCT ID">
                 <br><br>
             </form>
@@ -35,5 +26,5 @@ output_header3();
 		</div>
 			
 <?php
-
-output_footer();
+	// Output footer
+	output_footer();

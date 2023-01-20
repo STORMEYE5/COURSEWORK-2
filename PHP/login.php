@@ -1,14 +1,13 @@
 <?php
-// include common.php as it contains the header and footer... website has a constant header and footer throughout
+    // include common.php as it contains the header and footer... website has a constant header and footer throughout
+    include ('common.php');
 
-include ('common.php');
-$title = "Login Page";
-//Ouputs the header for the page and opening body tag
-
-outputHeader($title);
-outputNav();
+    //Ouputs the header for the page and opening body tag
+    outputHeader("Login Page");
+    outputNav();
 ?>
-<!-- content of login page -->
+
+    <!-- Content of login page -->
     <div class="content">
         <div class="login-form">
             <h1>Login Page</h1>
@@ -23,16 +22,15 @@ outputNav();
                 <input type="password" name="password" id="passwd" placeholder="Enter Password" >
                 <span class="pw_det"></span>
             </div>
-              <!-- entering the login button -->
-
-        <div class="button">
-            <a id="login_btn">Login</a></button>
-        </div>
+             
+            <!-- login button -->
+            <div class="button">
+                <a id="login_btn">Login</a></button>
+            </div>
         </div>
     </div>
-    <!-- <script type="text/javascript" src="login.js"></script> -->
     
-
 <?php
-OutputFooter();
+    // Output footer
+    OutputFooter();
 ?>

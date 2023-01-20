@@ -1,6 +1,6 @@
 <?php
-//Ouputs the header for the page
 
+// Ouputs the header for the page
 function outputHeader($title)
 {
     echo '
@@ -50,9 +50,9 @@ function outputNav()
 </div>
 
 </div>
-</header>';
-        
+</header>';     
 }
+
 // output footer
 function outputFooter()
 {
@@ -84,6 +84,5 @@ function outputFooter()
  </body>
  </html>';
 }
-
 
 ?>

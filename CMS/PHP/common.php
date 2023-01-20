@@ -1,5 +1,6 @@
 <?php
 
+// Function to output first part of header
 function output_header($title){
     echo <<< END
 <!DOCTYPE html>
@@ -9,17 +10,22 @@ function output_header($title){
 END;
 }
 
+// Function to output the styles list
 function output_styles($styles){
-    echo '<link rel="stylesheet" type="text/css" href="../CSS/'.$styles.'">';
+    echo <<< END
+    link rel="stylesheet" type="text/css" href="../CSS/$styles";
+END;
 }
 
+// Function to output the second part of the header
 function output_header2(){
     echo <<< END
     <nav class="navbar">
-            <ul>
+        <ul>
 END;
 }
-                
+
+// Function to output the navigation bar
 function outputNav()
 {
     //Array of pages to link to
@@ -36,6 +42,7 @@ END;
     }
 }
 
+// Function to output the third part of the header
 function output_header3(){
     echo <<< END
                 <div class="login">
@@ -48,11 +55,12 @@ function output_header3(){
 END;
 }
 
+// Function to output the footer of the page
 function output_footer(){
     echo <<< END
-    <div class="footer">
+        <div class="footer">
 			<h4>~Page is accessible to staff only~</h4>
-			<a class="copyright"> Copyright © 2023 KartFlip. All Rights Reserved.</a>
+		    <a class="copyright"> Copyright © 2023 KartFlip. All Rights Reserved.</a>
 		</div>
 	</body>
 </html>

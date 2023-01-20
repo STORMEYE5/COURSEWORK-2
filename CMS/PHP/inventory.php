@@ -1,17 +1,20 @@
 <?php
-	
-include("common.php");
+	//Include the PHP functions to be used on the page
+	include("common.php");
 
-output_header("Product details");
-output_styles("inventory.css");
-output_header2();
-outputNav();
-output_header3();
-
+	// Output header
+	output_header("Product details");
+    // Output style sheet
+	output_styles("inventory.css");
+	output_header2();
+    // Output navigation bar
+	outputNav();
+	output_header3();
 ?>
-
+	<!-- Contents of page -->
 	<h1>Product Details </h1>
 	
+	<!-- Table of products -->
 	<table height= "50%" width = "100%" border = "5" cellspacing="10" align = "right" color=D56653 >
 			<tr>
 				<td colspan="5" bgcolor = "black" align = "center"> Products </td>
@@ -69,5 +72,5 @@ output_header3();
 		</table>
 
 <?php
-
-output_footer();
+    // Output footer
+	output_footer();
