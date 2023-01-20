@@ -22,22 +22,10 @@ output_header3();
 		</div>
 		
 	    <!-- Input box asking for model -->
-		<div class="form_container">
-            <form id ="model">
-                <!-- <label>Model: </label> -->
-                <input type="text" id="model" placeholder="MODEL">
-                <br><br>
-            </form>
-			
+		<div class="form_container">			
 			    <form id ="PId">
                 <!-- <label>Product ID: </label> -->
                 <input type="text" id="model" placeholder="PRODUCT ID">
-                <br><br>
-            </form>
-			
-			    <form id ="price">
-                <!-- <label>Price: </label> -->
-                <input type="text" id="model" placeholder="PRICE">
                 <br><br>
             </form>
 			
