@@ -1,0 +1,21 @@
+.form{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    top: 100px;
+}
+
+.example{
+    height: 100px;
+    width: 250px;
+    position: relative;
+    color: white;
+}
+
+#product-card{
+    height: 200px;
+    width: 500px;
+    position: relative;
+    color: white;
+}

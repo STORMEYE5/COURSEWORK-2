@@ -1,0 +1,28 @@
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .product h3 {
+    margin-top: 0;
+  }
+  
+  .product p:first-child {
+    font-weight: bold;
+  }
+  
+  .product p:nth-child(2) {
+    margin-top: 5px;
+  }
+  
+  .product p:last-child {
+    margin-bottom: 0;
+  }

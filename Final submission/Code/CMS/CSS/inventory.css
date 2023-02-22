@@ -1,0 +1,135 @@
+h1{
+    font-family: garamond ;
+    text-align:center;
+    font-size:30pt;
+    color:black;
+}
+
+.navbar{
+    background-color: black;
+    border-radius: 30px;
+}
+
+.navbar li{
+    display: flex;
+    float:right;
+    list-style: none; 
+    margin: 10px 20px;
+    align-content: center;
+}
+
+.navbar ul{
+    overflow: auto;
+}
+
+.navbar li a{
+    padding: 25px 25px;
+    text-decoration: none;
+    color: white;
+}
+ .login{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 5px;
+    float: left;
+    color: white;
+    font-family: garamond ;
+    font-size:35pt;
+    padding: 12px 75px;
+}
+
+.navbar li a:hover{
+    color: blue
+}
+
+input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 10px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+table{
+    background-color: darkblue;
+}
+
+td{
+	text-align:center;
+    color: white;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+#update_button{
+    position: absolute;
+    margin-top: 0.85%;
+    right: 1.6%;
+    border: none;
+    padding: 3px;
+    background: none;
+    color: wheat;
+}
+
+.form_container{
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 18%;
+    width: 40%;
+    height: 60%;
+    left: 50%;
+    backdrop-filter: none;
+    z-index: 1;
+    transform: translate(-50%);
+    background-color: black;
+    transition: all 0.2s linear;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+#close_form{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.container{
+    height: 100%;
+}
+
+.close_form{
+    visibility: hidden;
+    opacity: 0;
+}
+
+#submit_btn{
+    border: none;
+    border-radius: 14px;
+    padding: 10px;
+}
